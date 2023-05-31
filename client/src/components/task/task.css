@@ -1,0 +1,48 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.taskMainDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.taskBoxDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 0px 0px 8px 0px #b1a6a6;
+}
+.createLink{
+    width: 100%;
+}
+.taskBoxDiv button{
+    width: 100%;
+    height: 30px;
+    background: #24a7b0de;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: cornsilk;
+    cursor: pointer;
+}
+.searchBar{
+    width: -webkit-fill-available;
+    height: 30px;
+    outline: none;
+    padding: 0 0 0 10px;
+    margin: 5px 0;
+}
+.taskGroupDiv{
+    width: 100%;
+}
+.taskDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}

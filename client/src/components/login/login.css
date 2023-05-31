@@ -1,0 +1,45 @@
+.LoginPage__topDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    background-image: url('../../../public/images/loginBack.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand__logo {
+    color: #FB2576;
+}
+
+.LoginPage__title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.LoginPage__topDiv input {
+    width: 250px;
+    font-size: 18px;
+    border: none;
+    border-bottom-style: groove;
+    padding: 10px 0;
+    outline: none;
+    background: transparent;
+    filter: brightness(0.3);
+}
+
+.LoginPage__topDiv button {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0;
+    padding: 5px 0;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+}
